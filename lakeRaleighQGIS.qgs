@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>-709283.743031</xmin>
-            <ymin>4016140.044076</ymin>
-            <xmax>-708223.707471</xmax>
-            <ymax>4016794.017627</ymax>
+            <xmin>-708514.660835</xmin>
+            <ymin>4016454.241234</ymin>
+            <xmax>-707454.625275</xmax>
+            <ymax>4017108.214785</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -44,7 +44,7 @@
                 <legendlayerfile isInOverview="0" layerid="POIs20130303165903854" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas &amp; Features" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Areas20130303165335392" visible="1"/>
             </filegroup>
@@ -148,7 +148,7 @@
             <datasource>./Areas.kmz</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Areas</layername>
+            <layername>Areas &amp; Features</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
