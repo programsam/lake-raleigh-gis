@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<gpx
+ version="1.0"
+ creator="LogYourRun http://www.logyourrun.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/0"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<trk>
+	<name>lakeraleighwo</name><trkseg>
+<trkpt lat="35.75967" lon="-78.68915"></trkpt>
+<trkpt lat="35.75998" lon="-78.68913"></trkpt>
+<trkpt lat="35.76008" lon="-78.68937"></trkpt>
+<trkpt lat="35.75999" lon="-78.68921"></trkpt>
+<trkpt lat="35.76054" lon="-78.68922"></trkpt>
+<trkpt lat="35.76078" lon="-78.68882"></trkpt>
+<trkpt lat="35.76154" lon="-78.68903"></trkpt>
+<trkpt lat="35.76181" lon="-78.68855"></trkpt>
+<trkpt lat="35.76210" lon="-78.68889"></trkpt>
+<trkpt lat="35.76299" lon="-78.68857"></trkpt>
+<trkpt lat="35.76400" lon="-78.68882"></trkpt>
+<trkpt lat="35.76454" lon="-78.68851"></trkpt>
+<trkpt lat="35.76509" lon="-78.68844"></trkpt>
+<trkpt lat="35.76533" lon="-78.68815"></trkpt>
+<trkpt lat="35.76597" lon="-78.68876"></trkpt>
+<trkpt lat="35.76647" lon="-78.68893"></trkpt>
+<trkpt lat="35.76700" lon="-78.68899"></trkpt>
+<trkpt lat="35.76742" lon="-78.68864"></trkpt>
+<trkpt lat="35.76866" lon="-78.68877"></trkpt>
+<trkpt lat="35.76898" lon="-78.68852"></trkpt>
+<trkpt lat="35.76909" lon="-78.68866"></trkpt>
+<trkpt lat="35.76882" lon="-78.68891"></trkpt>
+<trkpt lat="35.76750" lon="-78.68853"></trkpt>
+<trkpt lat="35.76713" lon="-78.68896"></trkpt>
+<trkpt lat="35.76595" lon="-78.68870"></trkpt>
+<trkpt lat="35.76554" lon="-78.68834"></trkpt>
+<trkpt lat="35.76537" lon="-78.68785"></trkpt>
+<trkpt lat="35.76570" lon="-78.68700"></trkpt>
+<trkpt lat="35.76632" lon="-78.68638"></trkpt>
+<trkpt lat="35.76575" lon="-78.68701"></trkpt>
+<trkpt lat="35.76507" lon="-78.68838"></trkpt>
+<trkpt lat="35.76346" lon="-78.68901"></trkpt>
+<trkpt lat="35.76211" lon="-78.68904"></trkpt>
+<trkpt lat="35.76181" lon="-78.68856"></trkpt>
+<trkpt lat="35.76140" lon="-78.68898"></trkpt>
+<trkpt lat="35.76081" lon="-78.68878"></trkpt>
+<trkpt lat="35.76059" lon="-78.68915"></trkpt>
+<trkpt lat="35.75970" lon="-78.68911"></trkpt>
+</trkseg></trk>
+</gpx>

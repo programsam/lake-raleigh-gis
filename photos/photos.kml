@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <Document>
+    <name>My Photos</name>
+    <open>1</open>
+    <Style id="Photo">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon38.png</href>
+          <scale>1.0</scale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Waypoints</name>
+      <open>0</open>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 1.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 1.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.689,35.7628333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 10.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 10.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.689,35.7628333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 11.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 11.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6885,35.768,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 12.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 12.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6885,35.768,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 13.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 13.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6886666666667,35.768,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 15.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 15.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6885,35.7678333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 16.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 16.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6885,35.7678333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 17.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 17.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6891666666667,35.7595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 18.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 18.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6888333333333,35.7608333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 19.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 19.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6886666666667,35.7618333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 2.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 2.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.689,35.7628333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 20.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 20.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6888333333333,35.7686666666667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 21.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 21.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6886666666667,35.7691666666667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 3.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 3.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.689,35.7628333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 4.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 4.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.689,35.7606666666667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 5.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 5.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6891666666667,35.7606666666667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 6.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 6.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6863333333333,35.7663333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 7.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 7.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6863333333333,35.7663333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 8.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 8.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6863333333333,35.7663333333333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <description><![CDATA[<br/><table><tr><td>
+        <img src='./photo 9.jpg'
+          width='400px' height='300px'>
+        </td></tr></table>]]></description>
+        <Snippet/>
+        <name>photo 9.jpg</name>
+        <styleUrl>#Photo</styleUrl>
+        <Point>
+          <altitudeMode>clampedToGround</altitudeMode>
+          <coordinates>-78.6863333333333,35.7663333333333,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
