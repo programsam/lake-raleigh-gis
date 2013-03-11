@@ -1,13 +1,13 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.8.0-Lisboa">
+<qgis projectname="" version="1.7.4-Wroclaw">
     <title></title>
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-78.687483</xmin>
-            <ymin>35.761152</ymin>
-            <xmax>-78.683045</xmax>
-            <ymax>35.763729</ymax>
+            <xmin>-78.691424</xmin>
+            <ymin>35.759808</ymin>
+            <xmax>-78.677213</xmax>
+            <ymax>35.767218</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,38 +23,38 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="false">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Trails" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+    <legend>
+        <legendlayer open="true" checked="Qt::Checked" name="Trails" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Trails20130311175111586" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Areas20130311170938456" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="small_streets20130309004044315" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="5" open="true" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Hydrology_Areas20130303164053622" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer open="true" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="NotationMarks20130311171705362" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="POIs" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="POIs20130311171156864" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="6" open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
+        <legendlayer open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Contours20130303161741239" visible="1"/>
             </filegroup>
@@ -64,8 +64,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Areas20130311170938456</id>
             <datasource>./Areas/Areas.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>Areas</layername>
             <srs>
                 <spatialrefsys>
@@ -133,9 +131,9 @@
                 <edittype type="0" name="timestamp"/>
                 <edittype type="0" name="visibility"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -152,8 +150,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Contours20130303161741239</id>
             <datasource>./raleigh data/Contours.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>Contours</layername>
             <srs>
                 <spatialrefsys>
@@ -237,8 +233,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Hydrology_Areas20130303164053622</id>
             <datasource>./raleigh data/Hydrology_Areas.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>Hydrology_Areas</layername>
             <srs>
                 <spatialrefsys>
@@ -322,8 +316,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>NotationMarks20130311171705362</id>
             <datasource>./NotationMarks/NotationMarks.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>NotationMarks</layername>
             <srs>
                 <spatialrefsys>
@@ -391,9 +383,9 @@
                 <edittype type="0" name="timestamp"/>
                 <edittype type="0" name="visibility"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -410,8 +402,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>POIs20130311171156864</id>
             <datasource>./POIs/POIs.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>POIs</layername>
             <srs>
                 <spatialrefsys>
@@ -479,9 +469,9 @@
                 <edittype type="0" name="timestamp"/>
                 <edittype type="0" name="visibility"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -498,8 +488,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Trails20130311175111586</id>
             <datasource>./Trails/Trails.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>Trails</layername>
             <srs>
                 <spatialrefsys>
@@ -619,9 +607,9 @@
                 <edittype type="0" name="timestamp"/>
                 <edittype type="0" name="visibility"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -638,8 +626,6 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>small_streets20130309004044315</id>
             <datasource>./streets/small-streets.shp</datasource>
-            <title></title>
-            <abstract></abstract>
             <layername>small-streets</layername>
             <srs>
                 <spatialrefsys>
@@ -661,23 +647,13 @@
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
-                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="color" v="73,73,73,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="round"/>
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="2.26"/>
-                        </layer>
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="round"/>
-                            <prop k="color" v="255,255,255,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="joinstyle" v="round"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.26"/>
+                            <prop k="width" v="2.5"/>
                         </layer>
                     </symbol>
                 </symbols>
