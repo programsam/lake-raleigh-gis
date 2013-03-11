@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-78.688323</xmin>
-            <ymin>35.764259</ymin>
-            <xmax>-78.683885</xmax>
-            <ymax>35.766836</ymax>
+            <xmin>-78.691421</xmin>
+            <ymin>35.757886</ymin>
+            <xmax>-78.682545</xmax>
+            <ymax>35.763040</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,32 +24,32 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Trails" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Trails_new20130310155641546" visible="1"/>
+        <legendlayer drawingOrder="0" open="false" checked="Qt::Checked" name="Trails" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Trails20130310174307833" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Areas20130309013755305" visible="1"/>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Areas" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Areas20130311170938456" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
+        <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="small_streets20130309004044315" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
+        <legendlayer drawingOrder="5" open="true" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Hydrology_Areas20130303164053622" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
+        <legendlayer drawingOrder="4" open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="POIs20130303165903854" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="4" open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
+        <legendlayer drawingOrder="6" open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Contours20130303161741239" visible="1"/>
             </filegroup>
@@ -57,8 +57,8 @@
     </legend>
     <projectlayers layercount="6">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Areas20130309013755305</id>
-            <datasource>./Areas.kmz</datasource>
+            <id>Areas20130311170938456</id>
+            <datasource>./Areas/Areas.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Areas</layername>
@@ -79,10 +79,10 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="0.427451" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.203922" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="235,180,68,109"/>
-                            <prop k="color_border" v="0,0,0,109"/>
+                            <prop k="color" v="255,237,39,52"/>
+                            <prop k="color_border" v="0,0,0,52"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
@@ -94,7 +94,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>description</displayfield>
+            <displayfield>descriptio</displayfield>
             <label>1</label>
             <labelfield>Name</labelfield>
             <labelattributes>
@@ -119,18 +119,18 @@
             </labelattributes>
             <edittypes>
                 <edittype type="0" name="Name"/>
-                <edittype type="0" name="altitudeMode"/>
+                <edittype type="0" name="altitudeMo"/>
                 <edittype type="0" name="begin"/>
-                <edittype type="0" name="description"/>
+                <edittype type="0" name="descriptio"/>
                 <edittype type="0" name="end"/>
                 <edittype type="0" name="extrude"/>
                 <edittype type="0" name="tessellate"/>
                 <edittype type="0" name="timestamp"/>
                 <edittype type="0" name="visibility"/>
             </edittypes>
-            <editform>.</editform>
+            <editform></editform>
             <editforminit></editforminit>
-            <annotationform>.</annotationform>
+            <annotationform></annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -403,8 +403,8 @@
             </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Trails_new20130310155641546</id>
-            <datasource>LineString?crs=proj4:+proj=longlat +datum=WGS84 +no_defs</datasource>
+            <id>Trails20130310174307833</id>
+            <datasource>./Trails.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Trails</layername>
@@ -421,20 +421,20 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">memory</provider>
+            <provider encoding="UTF-8">ogr</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
-                            <prop k="color" v="1,1,2,255"/>
+                            <prop k="color" v="2,2,3,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="round"/>
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.86"/>
+                            <prop k="width" v="1"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -492,7 +492,7 @@
                 <property key="labeling/textColorR" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
             </customproperties>
-            <displayfield>description</displayfield>
+            <displayfield>descriptio</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Label"/>
@@ -515,14 +515,11 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="FTR_SUBTYP"/>
-                <edittype type="0" name="FTR_TYPE"/>
+                <edittype type="0" name="LENGTH"/>
                 <edittype type="0" name="Name"/>
-                <edittype type="0" name="SHAPE_LEN"/>
-                <edittype type="0" name="UPDATE_DAT"/>
-                <edittype type="0" name="altitudeMode"/>
+                <edittype type="0" name="altitudeMo"/>
                 <edittype type="0" name="begin"/>
-                <edittype type="0" name="description"/>
+                <edittype type="0" name="descriptio"/>
                 <edittype type="0" name="end"/>
                 <edittype type="0" name="extrude"/>
                 <edittype type="0" name="tessellate"/>
