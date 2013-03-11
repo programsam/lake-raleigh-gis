@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-78.692824</xmin>
-            <ymin>35.756660</ymin>
-            <xmax>-78.683949</xmax>
-            <ymax>35.761814</ymax>
+            <xmin>-78.687483</xmin>
+            <ymin>35.761152</ymin>
+            <xmax>-78.683045</xmax>
+            <ymax>35.763729</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,9 +24,9 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendlayer drawingOrder="0" open="false" checked="Qt::Checked" name="Trails" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Trails" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Trails20130310174307833" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Trails20130311175111586" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
@@ -496,8 +496,8 @@
             </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Trails20130310174307833</id>
-            <datasource>./Trails.shp</datasource>
+            <id>Trails20130311175111586</id>
+            <datasource>./Trails/Trails.shp</datasource>
             <title></title>
             <abstract></abstract>
             <layername>Trails</layername>
@@ -521,7 +521,7 @@
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
-                            <prop k="color" v="2,2,3,255"/>
+                            <prop k="color" v="0,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="round"/>
                             <prop k="offset" v="0"/>
