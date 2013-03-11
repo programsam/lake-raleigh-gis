@@ -1,13 +1,13 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="1.7.4-Wroclaw">
+<qgis projectname="" version="1.8.0-Lisboa">
     <title></title>
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-78.691424</xmin>
-            <ymin>35.759808</ymin>
-            <xmax>-78.677213</xmax>
-            <ymax>35.767218</ymax>
+            <xmin>-78.690239</xmin>
+            <ymin>35.759584</ymin>
+            <xmax>-78.676028</xmax>
+            <ymax>35.767836</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -23,47 +23,54 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend>
-        <legendlayer open="true" checked="Qt::Checked" name="Trails" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Trails20130311175111586" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Areas20130311170938456" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="small_streets20130309004044315" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Hydrology_Areas20130303164053622" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="NotationMarks20130311171705362" visible="1"/>
-            </filegroup>
-        </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="POIs20130311171156864" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Hydrology_Areas" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Hydrology_Areas20130303164053622" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Trails" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Trails20130311175111586" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Hydrology_Lines" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Hydrology_Lines20130311180619347" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Areas" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Areas20130311170938456" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="small-streets" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="small_streets20130309004044315" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="NotationMarks20130311171705362" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Contours" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Contours20130303161741239" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="7">
+    <projectlayers layercount="8">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Areas20130311170938456</id>
             <datasource>./Areas/Areas.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Areas</layername>
             <srs>
                 <spatialrefsys>
@@ -150,6 +157,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Contours20130303161741239</id>
             <datasource>./raleigh data/Contours.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Contours</layername>
             <srs>
                 <spatialrefsys>
@@ -233,6 +242,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Hydrology_Areas20130303164053622</id>
             <datasource>./raleigh data/Hydrology_Areas.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Hydrology_Areas</layername>
             <srs>
                 <spatialrefsys>
@@ -253,7 +264,7 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="106,236,255,255"/>
+                            <prop k="color" v="101,124,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -313,9 +324,97 @@
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>Hydrology_Lines20130311180619347</id>
+            <datasource>./raleigh data/Hydrology_Lines.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Hydrology_Lines</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * Generated CRS (+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2199999997 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="48,84,200,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.5"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>FTYPE</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="FCODE"/>
+                <edittype type="0" name="FTYPE"/>
+                <edittype type="0" name="NAME"/>
+                <edittype type="0" name="RCH_CODE"/>
+                <edittype type="0" name="SHAPE_LEN"/>
+                <edittype type="0" name="UPDATE_DAT"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>NotationMarks20130311171705362</id>
             <datasource>./NotationMarks/NotationMarks.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>NotationMarks</layername>
             <srs>
                 <spatialrefsys>
@@ -402,6 +501,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>POIs20130311171156864</id>
             <datasource>./POIs/POIs.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>POIs</layername>
             <srs>
                 <spatialrefsys>
@@ -488,6 +589,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Trails20130311175111586</id>
             <datasource>./Trails/Trails.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>Trails</layername>
             <srs>
                 <spatialrefsys>
@@ -626,6 +729,8 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>small_streets20130309004044315</id>
             <datasource>./streets/small-streets.shp</datasource>
+            <title></title>
+            <abstract></abstract>
             <layername>small-streets</layername>
             <srs>
                 <spatialrefsys>
