@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>-78.690334</xmin>
-            <ymin>35.762067</ymin>
-            <xmax>-78.682809</xmax>
-            <ymax>35.766437</ymax>
+            <xmin>-78.689083</xmin>
+            <ymin>35.759718</ymin>
+            <xmax>-78.685731</xmax>
+            <ymax>35.761665</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -24,6 +24,11 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Log" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Default__1_20130414132201228" visible="0"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="POIs" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="POIs20130311171156864" visible="1"/>
@@ -34,8 +39,8 @@
                 <legendlayerfile isInOverview="0" layerid="Hydrology_Areas20130303164053622" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Trails" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Trails" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Trails20130311175111586" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -59,8 +64,8 @@
                 <legendlayerfile isInOverview="0" layerid="Spot_Elevations20130311182441997" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="NotationMarks" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="NotationMarks20130311171705362" visible="1"/>
             </filegroup>
         </legendlayer>
@@ -72,19 +77,33 @@
     </legend>
     <Composer title="Composer 1" visible="0">
         <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="35.7621" xmin="-78.6903" ymax="35.7674" xmax="-78.6828"/>
+            <Extent ymin="35.7621" xmin="-78.6903" ymax="35.7656" xmax="-78.6828"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Lucida Grande,13,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="293" x="1" y="1" rotation="0" height="206" frame="true" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="2.67773" id="" positionLock="false">
+            <ComposerItem width="5120.63" x="-4826.63" y="-2180.33" rotation="0" height="2387.33" frame="true" outlineWidth="0.3" zValue="8" lastValidViewScaleFactor="0.113744" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerMap>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="9">
+    <Composer title="Composer 2" visible="0">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="35.7578" xmin="-78.6868" ymax="35.7673" xmax="-78.6734"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Lucida Grande,13,-1,5,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="292" x="1" y="0" rotation="0" height="206" frame="true" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.67773" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <projectlayers layercount="10">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Areas20130311170938456</id>
             <datasource>./Areas/Areas.shp</datasource>
@@ -257,6 +276,71 @@
                 </factory>
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>Default__1_20130414132201228</id>
+            <datasource>../../../Downloads/Default (1).kml</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Log</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="132,121,217,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="2"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Hydrology_Areas20130303164053622</id>
@@ -786,8 +870,9 @@
             </customproperties>
             <displayfield>descriptio</displayfield>
             <label>0</label>
+            <labelfield>Name</labelfield>
             <labelattributes>
-                <label fieldname="" text="Label"/>
+                <label fieldname="Name" text="Label"/>
                 <family fieldname="" name="Lucida Grande"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
